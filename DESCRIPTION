@@ -1,0 +1,16 @@
+Package: ictml
+Title: Easily Install and Load the 'ICTML'
+Version: 0.0.1
+Imports:
+    rtemis,
+    tlverse
+Additional_repositories:
+    https://ictml-project.r-universe.dev
+Authors@R: c(person("Henrik", "Bengtsson", role=c("aut", "cre", "cph"),
+                                          email = "henrikb@braju.com"))
+Description: The 'ICTML' is a software suite implementing the Interpretable Causal Targeted Machine Learning ('ICTML') Project <https://www.ictml.org>.
+URL: https://www.ictml.org
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

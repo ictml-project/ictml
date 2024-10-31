@@ -1,0 +1,6 @@
+*~
+[.]Rhistory
+docs/
+pkgdown/
+.Rproj.user
+*.Rproj
