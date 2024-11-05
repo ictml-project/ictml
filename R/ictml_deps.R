@@ -13,8 +13,8 @@
 #' @importFrom utils available.packages
 #' @export
 ictml_deps <- function(recursive = FALSE, repos = getOption("repos")) {
-    pkgs <- available.packages(repos = repos)
-    deps <- package_dependencies(.packageName, pkgs, recursive = recursive)
+    pkgs <- as.data.frame(available.packages(repos = repos))
+    deps <- package_dependencies(getPackageName(), pkgs, recursive = recursive)
     pkg_deps <- unlist(deps)
 
     ## Fallback, until ICTML is on CRAN
