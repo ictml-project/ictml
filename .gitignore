@@ -4,3 +4,9 @@ docs/
 pkgdown/
 .Rproj.user
 *.Rproj
+
+# Mac OS
+.DS_Store
+
+# VS Code
+*.code-workspace
